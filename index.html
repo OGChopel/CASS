@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+	
+	<title>CASS LOGIN PAGE</title>
+	<link rel="stylesheet" href="cass.css">
+	<link rel="icon" href="ColdNigga.png">
+</head>
+<body>
+	<h1 class="pop">C.A.S.S</h1>
+	<div class="hero">
+		<div class="formbox">
+			<div class="buttonbox">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+			</div>
+			<div class="social-icons">
+				<img src="image/fb.png" alt="">
+				<img src="image/tw.png" alt="">
+				<img src="image/gp.png" alt="">
+			</div>
+			<form id="Login" class="inputgroup">
+				<input type="text" class="inputfield" placeholder="User Id" required>
+				<input type="text" class="inputfield" placeholder="Enter Password" required>
+				<input type="checkbox" class="chechbox"><span>Remember Password</span>
+				<button type="submit" class="submitbtn">Log In</button>
+			</form>
+			<form id="Register" class="inputgroup">
+				<input type="text" class="inputfield" placeholder="User Id" required>
+				<input type="email" class="inputfield" placeholder="Email Id" required>
+				<input type="text" class="inputfield" placeholder="Enter Password" required>
+				<input type="checkbox" class="chechbox"><span>I agree to the terms & conditions</span>
+				<button type="submit" class="submitbtn">Register</button>
+			</form>
+		</div>
+	</div>
+
+	<script>
+		var x = document.getElementById("Login");
+		var y = document.getElementById("Register");
+		var z = document.getElementById("btn");
+
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+			
+		}
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0px";
+			
+		}
+	</script>
+</body>
+</html>
