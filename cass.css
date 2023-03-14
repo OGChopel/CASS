@@ -103,6 +103,8 @@ span{
     left: 450px;
 }
 .pop{
+    color: white;
+    background-color: black;
     text-align: center;
     left: 200px;
 }
